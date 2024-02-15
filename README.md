@@ -210,6 +210,12 @@ View our history on the `main` branch.
 git log --oneline
 ```
 
+Get overview of all branches.
+
+```sh
+git log --oneline --graph --all
+```
+
 Merge the changes from the `mild` branch into the `main` branch.
 
 ```sh

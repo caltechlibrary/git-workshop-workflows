@@ -15,6 +15,12 @@ Branches, conflicts, and pull requests.
 
 ### Git Setup
 
+Check existing configuration.
+
+```sh
+git config --list
+```
+
 Configure your global name and email.
 
 ```sh
@@ -23,18 +29,6 @@ git config --global user.email "415179+t4k@users.noreply.github.com"
 ```
 
 Go to [GitHub Profile > Settings > Emails](https://github.com/settings/emails) to find your private email alias.
-
-Create a local Git repository.
-
-```sh
-cd ~/Desktop
-mkdir recipes
-cd recipes
-git init
-touch guacamole.md
-git add guacamole.md
-git commit -m "begin first recipe"
-```
 
 ### SSH Setup
 
@@ -65,6 +59,18 @@ ssh -T git@github.com
 ```
 
 ## Branches
+
+Create a local Git repository.
+
+```sh
+cd ~/Desktop
+mkdir recipes
+cd recipes
+git init
+touch guacamole.md
+git add guacamole.md
+git commit -m "begin first recipe"
+```
 
 View the branches in the repository.
 

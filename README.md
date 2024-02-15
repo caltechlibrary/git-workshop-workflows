@@ -1,10 +1,15 @@
 # Git Workshop: Workflows
 Branches, conflicts, and pull requests.
 
+> [!IMPORTANT]
+> **Instructors**: Before beginning, create a new workshop-specific repository by clicking **Use this template** on the [caltechlibrary/git-workshop-recipes](https://github.com/caltechlibrary/git-workshop-recipes) repository page.
+
+## Table of Contents
 1. [Setup](#setup)
 1. [Branches](#branches)
 1. [Conflicts](#conflicts)
 1. [Pull Requests](#pull-requests)
+1. [Acknowledgements](#acknowledgements)
 
 ## Setup
 
@@ -474,3 +479,11 @@ git commit -am "resolve conflict in table of contents"
 git push origin add-orangejuice
 # or use the “Resolve conflicts” button in GitHub
 ```
+
+## Acknowledgements
+
+Content has been adapted from the following lessons.
+
+- [swcarpentry/git-novice](https://github.com/swcarpentry/git-novice): Git configuration and SSH setup.
+- [UCL/git-novice](https://github.com/UCL/git-novice): Recipe paradigm with guacamole starter.
+- [carpentries-incubator/git-novice-branch-pr](https://github.com/carpentries-incubator/git-novice-branch-pr): Branching, conflicts, and pull requests steps.

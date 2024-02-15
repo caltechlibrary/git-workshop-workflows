@@ -422,8 +422,6 @@ git push origin main
 
 Alternatively, use the **Sync fork** functionality from the GitHub interface.
 
-Meanwhile, the upstream repository owner updates the README table of contents.
-
 Everyone creates a local branch to add a new recipe.
 
 ```sh
@@ -471,6 +469,8 @@ git push origin add-orangejuice
 ```
 
 Note that the pull request has been updated on GitHub.
+
+Meanwhile, the upstream repository owner updates the README table of contents.
 
 Everyone also should add to the README table of contents within their pull request branch.
 

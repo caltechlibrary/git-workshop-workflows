@@ -418,9 +418,8 @@ Pull the latest content into your local repository and push to your remote fork.
 ```sh
 git pull upstream main
 git push origin main
+# alternatively, use the **Sync fork** functionality from the GitHub interface
 ```
-
-Alternatively, use the **Sync fork** functionality from the GitHub interface.
 
 Everyone creates a local branch to add a new recipe.
 
@@ -489,8 +488,10 @@ git pull upstream main
 nano README.md
 git commit -am "resolve conflict in table of contents"
 git push origin add-orangejuice
-# or use the “Resolve conflicts” button in GitHub
+# or use the **Resolve conflicts** button in GitHub
 ```
+
+Upstream repository owner merges pull request.
 
 ## Acknowledgements
 

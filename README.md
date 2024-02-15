@@ -2,7 +2,7 @@
 Branches, conflicts, and pull requests.
 
 > [!IMPORTANT]
-> **Instructors**: Before beginning, create a new workshop-specific repository by clicking **Use this template** on the [caltechlibrary/git-workshop-recipes](https://github.com/caltechlibrary/git-workshop-recipes) repository page.
+> **Instructors**: Before beginning, create a new workshop-specific repository by clicking the **Use this template** button on the [caltechlibrary/git-workshop-recipes](https://github.com/caltechlibrary/git-workshop-recipes) repository page.
 
 ## Table of Contents
 1. [Setup](#setup)
